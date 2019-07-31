@@ -28,7 +28,7 @@ bool Clock::on_draw(const Cairo::RefPtr<Cairo::Context>& cr)
   cr->set_line_width(m_line_width);
 
   cr->save();
-  cr->set_source_rgba(WINDOW_BG_COLOR);
+  cr->set_source_rgba(WIDGET_BG_COLOR);
   cr->paint();
   cr->restore();
   cr->set_source_rgba(CLOCK_BORDER_COLOR);
