@@ -16,3 +16,5 @@ add_executable(wlclock
         main.cc colors.h)
 
 target_link_libraries(wlclock PkgConfig::gtkmm-3.0)
+
+install(TARGETS wlclock DESTINATION ${CMAKE_INSTALL_BINDIR})
