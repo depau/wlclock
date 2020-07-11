@@ -2,6 +2,8 @@
 
 An Xclock replacement for Wayland (and X11), prettier.
 
+[![screen.png](https://i.postimg.cc/CZ1WCzt4/screen.png)](https://postimg.cc/CZ1WCzt4)
+
 Heavily based on https://developer.gnome.org/gtkmm-tutorial/stable/sec-drawing-clock-example.html.en
 
 My changes mostly improve look and customizability, you still need to change the program to customize it.
